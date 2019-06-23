@@ -1,0 +1,32 @@
+# Directories
+asm/
+backups/
+blueprints/
+coremods/
+craftpresence/
+hats/
+journeymap/
+logs/
+mods/
+resourcepacks/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+texturepacks/
+
+# Files
+*.dat
+*.jar
+*.dll
+*.log
+options.txt
+optionsshaders.txt
+optionsof.txt
+splash.properties
+usernamecache.json
+usercache.json
+icon.png
+
+# Misc
+added-mods.txt
