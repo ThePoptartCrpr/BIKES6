@@ -14,7 +14,6 @@ ExtraPlanets-1.7.10-2.1.0.jar
 Mantle-1.7.10-0.3.2b.jar
 iChunUtil-4.2.3.jar
 FTBLib-1.7.10-1.0.18.3.jar
-1.7.10
 SonarCore-1.7.10-1.1.3.jar
 WanionLib-1.7.10-1.8.jar
 bdlib-1.9.4.109-mc1.7.10.jar
