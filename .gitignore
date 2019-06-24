@@ -2,6 +2,8 @@
 asm/
 backups/
 blueprints/
+config\AntiIDConflict/
+config/AppliedEnergistics2/recipes/generated
 coremods/
 craftpresence/
 hats/
