@@ -2,7 +2,7 @@
 asm/
 backups/
 blueprints/
-config\\AntiIDConflict/
+config/AntiIDConflict/
 config/AppliedEnergistics2/recipes/generated/
 config/BiomeTweaker/output
 coremods/
