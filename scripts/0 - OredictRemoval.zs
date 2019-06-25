@@ -131,6 +131,7 @@ var ElectrumIngot as IItemStack[] = [
 for item in IronDust {
     <ore:dustIron>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -138,6 +139,7 @@ for item in IronDust {
 for item in GoldDust {
     <ore:dustGold>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:1>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -145,6 +147,7 @@ for item in GoldDust {
 for item in CopperDust {
     <ore:dustCopper>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:32>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -152,6 +155,7 @@ for item in CopperDust {
 for item in TinDust {
     <ore:dustTin>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:33>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -159,6 +163,7 @@ for item in TinDust {
 for item in SilverDust {
     <ore:dustSilver>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:34>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -166,6 +171,7 @@ for item in SilverDust {
 for item in LeadDust {
     <ore:dustLead>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:35>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -173,6 +179,7 @@ for item in LeadDust {
 for item in NickelDust {
     <ore:dustNickel>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:36>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -181,6 +188,7 @@ for item in AluminumDust {
     <ore:dustAluminum>.remove(item);
     <ore:dustAluminium>.remove(item);
     recipes.addShapeless(<TConstruct:materials:40>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -188,6 +196,7 @@ for item in AluminumDust {
 for item in CoalDust {
     <ore:dustCoal>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:2>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -195,6 +204,7 @@ for item in CoalDust {
 for item in SulfurDust {
     <ore:dustSulfur>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:16>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -202,6 +212,7 @@ for item in SulfurDust {
 for item in ElectrumDust {
     <ore:dustElectrum>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:39>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -209,6 +220,7 @@ for item in ElectrumDust {
 for item in ObsidianDust {
     <ore:dustObsidian>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:4>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -216,6 +228,7 @@ for item in ObsidianDust {
 for item in CopperIngot {
     <ore:ingotCopper>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:64>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -223,6 +236,7 @@ for item in CopperIngot {
 for item in TinIngot {
     <ore:ingotTin>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:65>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -231,6 +245,7 @@ for item in AluminumIngot {
     <ore:ingotAluminum>.remove(item);
     <ore:ingotAluminium>.remove(item);
     recipes.addShapeless(<TConstruct:materials:11>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -238,6 +253,7 @@ for item in AluminumIngot {
 for item in LeadIngot {
     <ore:ingotLead>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:67>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -245,6 +261,7 @@ for item in LeadIngot {
 for item in NickelIngot {
     <ore:ingotNickel>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:68>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -252,6 +269,7 @@ for item in NickelIngot {
 for item in SilverIngot {
     <ore:ingotSilver>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:66>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -259,6 +277,7 @@ for item in SilverIngot {
 for item in SteelIngot {
     <ore:ingotSteel>.remove(item);
     recipes.addShapeless(<TConstruct:materials:16>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -266,6 +285,7 @@ for item in SteelIngot {
 for item in BronzeIngot {
     <ore:ingotBronze>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:73>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
@@ -273,6 +293,7 @@ for item in BronzeIngot {
 for item in ElectrumIngot {
     <ore:ingotElectrum>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:71>, [item]);
+    NEI.hide(item);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
