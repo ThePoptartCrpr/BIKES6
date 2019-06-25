@@ -22,6 +22,7 @@ var Infuser = <Mekanism:MachineBlock:8>;
 
 recipes.remove(Casing);
 recipes.remove(Infuser);
+mods.mekanism.chemical.Injection.removeRecipe(<Mekanism:OtherDust:3>);
 
 ////////////////////////
 // Recipe Addition
@@ -34,5 +35,7 @@ recipes.addShaped(Infuser, [
     [BlueGem, Zinc, BlueGem],
     [<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>]
 ]);
+
+mods.mekanism.chemical.Injection.addRecipe(<minecraft:gunpowder>, <gas:hydrogenchloride>, <ThermalFoundation:material:16>);
 
 print("Completed Mekanism.zs");
