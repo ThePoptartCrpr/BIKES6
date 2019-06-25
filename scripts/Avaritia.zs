@@ -1,5 +1,5 @@
 // Avaritia.zs
-// By Rizinq for BIKE Modded S4
+// By Rizinq for BIKE Modded S4 / jamzs for BIKE Modded S6
 
 print("Running Avaritia.zs");
 
@@ -10,6 +10,7 @@ print("Running Avaritia.zs");
 var Catalyst = <Avaritia:Resource:5>;
 var CrystalMatrix = <Avaritia:Resource:1>;
 var DireCraft = <Avaritia:Dire_Crafting>;
+var BotaniaDice = <Botania:dice>;
 
 ////////////////////////
 // Recipe Removal
@@ -23,7 +24,7 @@ recipes.remove(DireCraft);
 ////////////////////////
 
 recipes.addShaped(DireCraft, [
-    [CrystalMatrix, CrystalMatrix, CrystalMatrix],
+    [CrystalMatrix, BotaniaDice, CrystalMatrix],
     [<ExtraPlanets:tier11Items:4>, <Avaritia:Triple_Craft>, <ExtraPlanets:tier11Items>],
     [<ExtraPlanets:tier11Items:3>, <ExtraPlanets:tier11Items:2>, <ExtraPlanets:tier11Items:1>]
 ]);
