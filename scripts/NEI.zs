@@ -66,3 +66,5 @@ var Hide as IItemStack[] = [
 for item in Hide {
     NEI.hide(item);
 }
+
+print("Completed NEI.zs");
