@@ -78,8 +78,8 @@
 * Immibis Core 59.1.4
 * RedLogic 59.1.13
 * Redstone Arsenal 1.1.2-92
+* RFTools 4.23
 * SolarFlux 0.8b
-* SoulShards 0.1-RC9-7 (?)
 * StorageDrawers 1.10.9
 * Tinker's Construct 1.8.8
 * Thaumcraft 4.2.3.5
@@ -98,3 +98,4 @@
 * CoFH Core 3.1.4-329
 * OpenModsLib 0.10
 * Brandon's Core 1.0.0.12
+* McJtyLib 1.8.1
