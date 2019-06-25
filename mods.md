@@ -4,7 +4,6 @@
 * AE2 Stuff 0.5.1.61
 * AgriCraft 1.5.0
 * AIImprovements 0.0.1b19
-* AntiIdConflict 1.3.5 (for debugging)
 * Applied Energistics 2 rv3 beta 6
 * Aroma1997Core 1.0.2.16
 * Aroma1997's Dimensional World 1.1.0.1
