@@ -27,6 +27,8 @@ for item in Plates {
     recipes.removeShapeless(item);
 }
 
+mods.thermalexpansion.Smelter.removeRecipe(<ImmersiveEngineering:metal:4>, <ImmersiveEngineering:metal>);
+
 ////////////////////////
 // Recipe Addition
 ////////////////////////
@@ -36,5 +38,7 @@ recipes.addShapeless(<ImmersiveEngineering:metal:32>, [Hammer, <ore:ingotAluminu
 recipes.addShapeless(<ImmersiveEngineering:metal:33>, [Hammer, <ore:ingotLead>, <ore:ingotLead>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:36>, [Hammer, <ore:ingotConstantan>, <ore:ingotConstantan>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:38>, [Hammer, <ore:ingotSteel>, <ore:ingotSteel>]);
+
+mods.thermalexpansion.Smelter.addRecipe(2400, <ThermalFoundation:material:64>, <ThermalFoundation:material:68>, <ImmersiveEngineering:metal:5> * 2);
 
 print("Completed ImmersiveEngineering.zs");
