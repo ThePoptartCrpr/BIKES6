@@ -41,7 +41,6 @@ recipes.remove(StoneMK4);
 recipes.remove(StoneMK5);
 
 recipes.removeShaped(MinicioSeed);
-recipes.removeShaped(Zivicio);
 recipes.removeShaped(ZivicioIngot);
 
 ////////////////////////
