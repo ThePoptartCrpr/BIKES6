@@ -35,3 +35,7 @@ icon.png
 config/AppliedEnergistics2/recipes/items.csv
 betterfps.txt
 config/MouseTweaks.cfg
+
+# dumb configs
+config/MouseTweaks.cfg
+config/NEI/client.cfg
