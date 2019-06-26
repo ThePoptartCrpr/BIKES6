@@ -16,6 +16,45 @@ print("Running 0 - OredictRemoval.zs");
 // Variables
 ////////////////////////
 
+var IronNugget as IItemStack[] = [
+    <ImmersiveEngineering:metal:21>,
+    <TConstruct:materials:19>,
+    <Thaumcraft:ItemNugget>
+];
+
+var CopperNugget as IItemStack[] = [
+    <Thaumcraft:ItemNugget:1>,
+    <TConstruct:materials:20>,
+    <ImmersiveEngineering:metal:22>
+];
+
+var TinNugget as IItemStack[] = [
+    <TConstruct:materials:21>,
+    <Thaumcraft:ItemNugget:2>
+];
+
+var SilverNugget as IItemStack[] = [
+    <ImmersiveEngineering:metal:25>,
+    <Thaumcraft:ItemNugget:3>
+];
+
+var LeadNugget as IItemStack[] = [
+    <ImmersiveEngineering:metal:24>,
+    <Thaumcraft:ItemNugget:4>
+];
+
+var NickelNugget as IItemStack[] = [
+    <ImmersiveEngineering:metal:26>
+];
+
+var AluminumNugget as IItemStack[] = [
+    <ImmersiveEngineering:metal:23>
+];
+
+var ElectrumNugget as IItemStack[] = [
+    <ImmersiveEngineering:metal:28>
+];
+
 var IronDust as IItemStack[] = [
     <ActuallyAdditions:itemDust>,
     <EnderIO:itemPowderIngot:1>,
@@ -126,6 +165,63 @@ var ElectrumIngot as IItemStack[] = [
 ////////////////////////
 // Oredict Removal
 ////////////////////////
+
+for item in IronNugget {
+    <ore:nuggetIron>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:8>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in CopperNugget {
+    <ore:nuggetCopper>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:96>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in TinNugget {
+    <ore:nuggetTin>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:97>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in SilverNugget {
+    <ore:nuggetSilver>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:98>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in LeadNugget {
+    <ore:nuggetLead>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:99>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in NickelNugget {
+    <ore:nuggetNickel>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:100>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in AluminumNugget {
+    <ore:nuggetAluminum>.remove(item);
+    <ore:nuggetAluminium>.remove(item);
+    recipes.addShapeless(<TConstruct:materials:22>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in ElectrumNugget {
+    <ore:nuggetElectrum>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:103>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
 
 for item in IronDust {
     <ore:dustIron>.remove(item);
