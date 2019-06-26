@@ -1,0 +1,35 @@
+If you ever are looking for how to get an item in the pack, Not Enough Items (NEI) should be the first place you check.
+
+You can access it by opening your inventory. You should see a large list of items to your right. If you don't, press the key binding to toggle NEI visibility while in your inventory (default "O").
+
+To view recipes for an item, while hovering your mouse over an item, left click or press the recipe key binding (default "R"). NEI will show you how to get that item. An example is shown below.
+
+{"image":"bedrock.png",scale:0.25}
+§oOh hey, you can craft bedrock!§r
+
+Click the left and right arrows on the top of the window (if present) to switch between different crafting types (such as shaped, shapeless, crafting types from mods, etc.). Click the arrows at the bottom of the window (if present) to navigate between pages.
+
+If you were in a crafting table (or similar) and the recipe you are viewing is for a shaped or shapeless crafting recipe, you'll likely also see a question mark button, shown below.
+
+{"image":"blank-pattern.png",scale:0.25}
+
+Click the question mark to show where those items should go in your crafting interface. Shift click the items to automatically place the materials into the crafting table (if you have them in your inventory).
+
+To view uses for an item, while hovering your mouse over an item, right click or press the usage key bind (default "U"). NEI will show you what recipes use that item.
+
+You can do this pretty much anywhere else you can hover on items too, not just the NEI item list!
+
+To search for specific items, type in the search bar at the bottom of the inventory.
+
+Aside from simply searching items, there are some more advanced search functions as well! These include, but are not limited to:
+- Type "@" before your search to search for items from a certain mod (such as "@Thau" to search for items from Thaumcraft or "@Minec" to search for items from vanilla Minecraft).
+- Type a "|" (likely shift + key above the enter key) to search for multiple queries (for example, searching "apple|diamond" will give you results matching either "apple" or "diamond").
+- NEI search supports regex! Very few people know how to use it however - there are several articles online that may help you learn about it if you're interested.
+- If you've already typed something in the search bar and want to clear it, just right click the search bar.
+- If you double click the search bar, you can search both the NEI item list as well as the inventory you are in, such as a chest, for that item! Double click again to stop.
+
+And here are some other random functions of NEI (you may learn something here even if you're experienced!):
+- If you've gone through multiple recipes in NEI, press backspace to go back to the previous one.
+- Some recipes may have multiple items that are valid for a recipe, and if this is the case, it will cycle between them. Press and hold shift to stop this.
+- While placing items into an inventory by dragging using your mouse cursor, hold shift while clicking to move every item of that type into the inventory. (If you didn't understand: left click item to pick it up -> hold shift -> left click into another inventory)
+- While crafting, you can right click the output to pick up as much of it as possible (similar to shift clicking, but it's picked up by your mouse cursor instead of going into your inventory)

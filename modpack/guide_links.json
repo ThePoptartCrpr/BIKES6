@@ -1,0 +1,10 @@
+{
+  "links":
+  {
+    "bedrock":
+    {
+      "type": "image",
+      "link": "images/bedrock.png"
+    }
+  }
+}
