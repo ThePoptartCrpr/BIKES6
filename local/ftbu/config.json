@@ -32,10 +32,11 @@
   },
   "login": {
     "motd": [
-      "Welcome to the server!"
+      "Welcome to BIKE Modded SMP Season 6! For new players, there is a button to access a guide book in your inventory. Have fun!"
     ],
     "starting_items": [
-      "minecraft:apple 16 0"
+      "harvestcraft:jellybeansItem 16 0",
+      "ThermalExpansion:satchel 1 1"
     ]
   },
   "permissions_admin": {
