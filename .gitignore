@@ -8,6 +8,7 @@ config/BiomeTweaker/output
 config/draconicevolution
 coremods/
 craftpresence/
+dumps/
 hats/
 journeymap/
 logs/
