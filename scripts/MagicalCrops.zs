@@ -26,6 +26,10 @@ var Zivicio = <magicalcrops:magicalcrops_5ZivicioEssence>;
 
 var MinicioSeed = <magicalcrops:magicalcrops_MinicioSeeds>;
 
+var SigNugget = <ThermalFoundation:material:106>;
+var EnderiumBlock = <ThermalFoundation:Storage:12>;
+var ZivicioIngot = <magicalcrops:magicalcrops_EssenceIngots:3>;
+
 ////////////////////////
 // Recipe Removal
 ////////////////////////
@@ -37,6 +41,8 @@ recipes.remove(StoneMK4);
 recipes.remove(StoneMK5);
 
 recipes.removeShaped(MinicioSeed);
+recipes.removeShaped(Zivicio);
+recipes.removeShaped(ZivicioIngot);
 
 ////////////////////////
 // Recipe Addition
@@ -56,6 +62,12 @@ recipes.addShaped(MinicioSeed, [
     [<magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>],
     [<magicalcrops:magicalcrops_1MinicioEssence>, <AgriCraft:seedDiamahlia>, <magicalcrops:magicalcrops_1MinicioEssence>],
     [<magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>]
+]);
+
+recipes.addShaped(ZivicioIngot, [
+    [SigNugget, EnderiumBlock, SigNugget],
+    [EnderiumBlock, Zivicio, EnderiumBlock],
+    [SigNugget, EnderiumBlock, SigNugget]
 ]);
 
 print("Completed MagicalCrops.zs");
