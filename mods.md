@@ -4,6 +4,7 @@
 * AE2 Stuff 0.5.1.61
 * AgriCraft 1.5.0
 * AIImprovements 0.0.1b19
+* AppleCore 3.1.1
 * Applied Energistics 2 rv3 beta 6
 * Aroma1997Core 1.0.2.16
 * Aroma1997's Dimensional World 1.1.0.1
@@ -50,6 +51,7 @@
 * Iguanas Tinker Tweaks 2.1.6
 * Immersive Engineering 0.7.7
 * Immibis Core 59.1.4
+* InpureCore 1.0.0B9-62
 * Inventory Tweaks 1.59-dev-152
 * Iron Chest 6.0.62.742
 * JourneyMap 5.1.4p2
