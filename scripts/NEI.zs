@@ -67,4 +67,7 @@ for item in Hide {
     NEI.hide(item);
 }
 
+NEI.hide(<magicalcrops:magicalcrops_1MinicioEssence>);
+NEI.addEntry(<magicalcrops:magicalcrops_1MinicioEssence>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
+
 print("Completed NEI.zs");
