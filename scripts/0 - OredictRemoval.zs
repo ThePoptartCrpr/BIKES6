@@ -8,8 +8,6 @@ import minetweaker.item.IItemStack;
 // different types of unobtainable materials in crafting recipes, such as
 // copper ingots from mods other than Thermal Expansion.
 
-// TODO: also remove dusts, nuggets, etc
-
 print("Running 0 - OredictRemoval.zs");
 
 ////////////////////////
