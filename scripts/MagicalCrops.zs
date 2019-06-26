@@ -18,6 +18,7 @@ var StoneMK5 = <magicalcrops:magicalcrops_InfusionStoneMaster>;
 var MinicioBlock = <magicalcrops:essence_storage>;
 var MinicioEssence = <magicalcrops:magicalcrops_1MinicioEssence>;
 
+var Minicio = <magicalcrops:magicalcrops_1MinicioEssence>;
 var Accio = <magicalcrops:magicalcrops_2AccioEssence>;
 var Crucio = <magicalcrops:magicalcrops_3CrucioEssence>;
 var Imperio = <magicalcrops:magicalcrops_4ImperioEssence>;
@@ -40,6 +41,8 @@ recipes.removeShaped(MinicioSeed);
 ////////////////////////
 // Recipe Addition
 ////////////////////////
+
+mods.botania.ElvenTrade.addRecipe(Minicio, [<ThermalFoundation:material:512>]);
 
 mods.botania.ManaInfusion.addInfusion(StoneMK1, <Thaumcraft:ItemResource:16>, 200000);
 mods.botania.ManaInfusion.addInfusion(StoneMK2, StoneMK1, 300000);
