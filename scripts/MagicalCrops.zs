@@ -23,6 +23,8 @@ var Crucio = <magicalcrops:magicalcrops_3CrucioEssence>;
 var Imperio = <magicalcrops:magicalcrops_4ImperioEssence>;
 var Zivicio = <magicalcrops:magicalcrops_5ZivicioEssence>;
 
+var MinicioSeed = <magicalcrops:magicalcrops_MinicioSeeds>;
+
 ////////////////////////
 // Recipe Removal
 ////////////////////////
@@ -33,14 +35,24 @@ recipes.remove(StoneMK3);
 recipes.remove(StoneMK4);
 recipes.remove(StoneMK5);
 
+recipes.removeShaped(MinicioSeed);
+
 ////////////////////////
 // Recipe Addition
 ////////////////////////
 
-mods.botania.ManaInfusion.addInfusion(StoneMK1, <Botania:storage:1>, 200000);
+mods.botania.ManaInfusion.addInfusion(StoneMK1, <Thaumcraft:ItemResource:16>, 200000);
 mods.botania.ManaInfusion.addInfusion(StoneMK2, StoneMK1, 300000);
 mods.botania.ManaInfusion.addInfusion(StoneMK3, StoneMK2, 400000);
 mods.botania.ManaInfusion.addInfusion(StoneMK4, StoneMK3, 500000);
-mods.botania.ManaInfusion.addInfusion(StoneMK5, StoneMK4, 1000000);
+/* mods.botania.ManaInfusion.addInfusion(StoneMK5, StoneMK4, 1000000); */
+
+mods.bloodmagic.Altar.addRecipe(StoneMK5, StoneMK4, 6, 225000);
+
+recipes.addShaped(MinicioSeed, [
+    [<magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>],
+    [<magicalcrops:magicalcrops_1MinicioEssence>, <AgriCraft:seedDiamahlia>, <magicalcrops:magicalcrops_1MinicioEssence>],
+    [<magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>]
+]);
 
 print("Completed MagicalCrops.zs");
