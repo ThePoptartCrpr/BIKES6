@@ -787,6 +787,7 @@
         "minecraft:wooden_shovel"
       ],
       "blocklist": [
+        "Mekanism:SaltBlock",
         "TConstruct:GravelOre/0",
         "TConstruct:GravelOre/1",
         "TConstruct:GravelOre/2",
