@@ -12,7 +12,25 @@ print("Running NEI.zs");
 
 var Hide as IItemStack[] = [
     <ExtraPlanets:tier5Items:6>,
-    <ExtraPlanets:nickelBattery>.withTag({electricity: 45000.0 as float})
+    <ExtraPlanets:nickelBattery>.withTag({electricity: 45000.0 as float}),
+
+    <GalacticraftCore:tile.gcBlockCore:5>,
+    <ImmersiveEngineering:ore>,
+    <Mekanism:OreBlock:1>,
+    <TConstruct:SearedBrick:3>,
+
+    <GalacticraftCore:tile.gcBlockCore:7>,
+    <ImmersiveEngineering:ore:1>,
+
+    <GalacticraftCore:tile.gcBlockCore:6>,
+    <Mekanism:OreBlock:2>,
+    <TConstruct:SearedBrick:4>,
+
+    <ImmersiveEngineering:ore:2>,
+
+    <ImmersiveEngineering:ore:4>,
+
+    <ImmersiveEngineering:ore:3>
 ];
 
 ////////////////////////
