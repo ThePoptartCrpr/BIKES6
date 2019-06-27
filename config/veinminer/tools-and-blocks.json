@@ -348,12 +348,6 @@
         "NetherOres:tile.netherores.ore.1/13",
         "NetherOres:tile.netherores.ore.1/14",
         "NetherOres:tile.netherores.ore.1/15",
-        "TConstruct:GravelOre/0",
-        "TConstruct:GravelOre/1",
-        "TConstruct:GravelOre/2",
-        "TConstruct:GravelOre/3",
-        "TConstruct:GravelOre/4",
-        "TConstruct:GravelOre/5",
         "TConstruct:SearedBrick/1",
         "TConstruct:SearedBrick/2",
         "TConstruct:SearedBrick/3",
@@ -382,6 +376,7 @@
         "ThermalFoundation:Ore/6",
         "appliedenergistics2:tile.OreQuartz/0",
         "appliedenergistics2:tile.OreQuartzCharged/0",
+        "harvestcraft:salt",
         "magicalcrops:magicalcrops_MinicioOre/0",
         "minecraft:coal_ore",
         "minecraft:cobblestone_wall",
@@ -465,6 +460,12 @@
         "minecraft:wooden_shovel"
       ],
       "blocklist": [
+        "TConstruct:GravelOre/0",
+        "TConstruct:GravelOre/1",
+        "TConstruct:GravelOre/2",
+        "TConstruct:GravelOre/3",
+        "TConstruct:GravelOre/4",
+        "TConstruct:GravelOre/5",
         "minecraft:clay",
         "minecraft:gravel"
       ]
