@@ -81,7 +81,13 @@ var Hide as IItemStack[] = [
     <cfm:ItemDollar>,
     <cfm:ItemCrayfish>,
 
-    <NetherOres:netherOresBlockHellfish>
+    <NetherOres:netherOresBlockHellfish>,
+
+    <AWWayofTime:bloodLight>,
+    <AWWayofTime:spectralContainer>,
+    <AWWayofTime:blockSchemSaver>,
+
+    <Aroma1997Core:wrenched>
 ];
 
 ////////////////////////
