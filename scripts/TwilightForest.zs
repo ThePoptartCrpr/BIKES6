@@ -14,5 +14,6 @@ var Uncrafter = <TwilightForest:tile.TFUncraftingTable>;
 ////////////////////////
 
 Uncrafter.addTooltip(format.darkRed("Uncrafting function disabled due to exploit."));
+Uncrafter.addTooltip(format.darkRed("Repairing and recrafting functions are enabled."));
 
 print("Completed TwilightForest.zs");
