@@ -1,0 +1,12 @@
+So you've done the basics: you've cut down a tree, gotten some wood, and made your crafting table. One of the first thing you may notice is a warning that appears when you craft a wooden pickaxe:
+
+{"image":"woodpick_nerf.png", scale:0.5}
+
+In this pack, wooden and stone tools are nerfed down to 64 durability. Gold, diamond, and iron tools are nerfed even further - they only have 1 durability!
+
+To avoid this, you'll need to use tools from mods instead. But for now, a wooden pickaxe is fine to use to get some cobblestone.
+
+The next step is to use Tinkers Construct to make a flint pickaxe. See the guide book you spawned with, §oMaterials and You: Volume 1§r, to learn how to do this. If you don't have it, you can look up its crafting recipe in NEI (see the page on Not Enough Items in this guide for more information). Note that in this pack, flint won't randomly drop from breaking gravel. You can put 3 gravel into your crafting grid to get 1 flint. To make a flint pickaxe, you do not need to make the entire pickaxe out of flint; only the pickaxe head needs to be made out of flint. An example is shown below.
+
+
+
