@@ -1,0 +1,3 @@
+Veinminer is in the pack. It allows you to mine many blocks at once if they're connected and of the same type. The most common use of this is to quickly mine veins of ores.
+
+To use it, hold down the keybind set to activate Veinminer while mining a block (default GRAVE key or "`").  
