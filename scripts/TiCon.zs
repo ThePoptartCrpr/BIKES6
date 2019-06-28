@@ -22,7 +22,7 @@ var Brick = <TConstruct:materials:2>;
 // Recipe Addition
 ////////////////////////
 
-recipes.addShapeless(Grout * 2, [ClayBall, Sand, Gravel]);
-recipes.addShapeless(Grout * 8, [ClayBlock, Sand, Sand, Sand, Sand, Gravel, Gravel, Gravel, Gravel]);
+/* recipes.addShapeless(Grout * 2, [ClayBall, Sand, Gravel]);
+recipes.addShapeless(Grout * 8, [ClayBlock, Sand, Sand, Sand, Sand, Gravel, Gravel, Gravel, Gravel]); */
 
 print("Completed TiCon.zs");
