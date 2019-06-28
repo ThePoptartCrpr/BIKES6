@@ -1,6 +1,6 @@
 So you've done the basics: you've cut down a tree, gotten some wood, and made your crafting table. One of the first things you may notice is a warning that appears when you craft a wooden pickaxe:
 
-{"image":"woodpick-nerf.png", scale:0.5}
+{"image":"woodpick-nerf.png", scale:0.25}
 
 In this pack, wooden and stone tools are nerfed down to 64 durability. Gold, diamond, and iron tools are nerfed even further - they only have 1 durability!
 
