@@ -30,7 +30,58 @@ var Hide as IItemStack[] = [
 
     <ImmersiveEngineering:ore:4>,
 
-    <ImmersiveEngineering:ore:3>
+    <ImmersiveEngineering:ore:3>,
+
+    <minecraft:flowing_lava>,
+    <minecraft:flowing_water>,
+    <minecraft:command_block_minecart>,
+    <minecraft:command_block>,
+
+    <witchery:coffinblock>,
+    <witchery:spiritflowing>,
+    <witchery:hollowtears>,
+    <witchery:disease>,
+    <witchery:tormentportal>,
+    <witchery:spiritportal>,
+
+    <simplyjetpacks:mysteriousPotato>,
+
+    <rftools:proxyBlock>,
+    <rftools:noTickInvisibleShieldBlock>,
+    <rftools:noTickolidShieldBlock>,
+    <rftools:supportBlock>,
+
+    <magicalcrops:magicalcrops_MinicioOre>,
+    <magicalcrops:magicalcrops_MinicioOreNether>,
+    <magicalcrops:magicalcrops_MinicioOreEnd>,
+
+    <Botania:manaFlame>,
+
+    <ActuallyAdditions:blockCanolaOil>,
+
+    <BuildCraft|Energy:blockRedPlasma>,
+
+    <EnderIO:blockLightNode>,
+    <EnderIO:blockConduitBundle>,
+
+    <TwilightForest:tile.TFPlant:3>,
+
+    <chisel:aluminum_stairs.3>,
+    <chisel:aluminum_stairs.3:8>,
+    <chisel:aluminum_stairs.4>,
+    <chisel:aluminum_stairs.4:8>,
+    <chisel:aluminum_stairs.5>,
+    <chisel:aluminum_stairs.5:8>,
+    <chisel:aluminum_stairs.6>,
+    <chisel:aluminum_stairs.6:8>,
+    <chisel:aluminum_stairs.7>,
+    <chisel:aluminum_stairs.7:8>,
+    <chisel:amber>,
+
+    <cfm:ItemDollar>,
+    <cfm:ItemCrayfish>,
+
+    <NetherOres:netherOresBlockHellfish>
 ];
 
 ////////////////////////
