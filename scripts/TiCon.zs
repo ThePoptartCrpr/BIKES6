@@ -18,8 +18,6 @@ var Brick = <TConstruct:materials:2>;
 // Recipe Removal
 ////////////////////////
 
-furnace.remove(Brick);
-
 ////////////////////////
 // Recipe Addition
 ////////////////////////

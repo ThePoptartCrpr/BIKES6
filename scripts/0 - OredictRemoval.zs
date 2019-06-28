@@ -53,6 +53,10 @@ var ElectrumNugget as IItemStack[] = [
     <ImmersiveEngineering:metal:28>
 ];
 
+var BronzeNugget as IItemStack[] = [
+    <TConstruct:materials:31>
+];
+
 var IronDust as IItemStack[] = [
     <ActuallyAdditions:itemDust>,
     <EnderIO:itemPowderIngot:1>,
@@ -217,6 +221,13 @@ for item in AluminumNugget {
 for item in ElectrumNugget {
     <ore:nuggetElectrum>.remove(item);
     recipes.addShapeless(<ThermalFoundation:material:103>, [item]);
+    item.addTooltip(format.darkRed("This item should not exist!"));
+    item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
+}
+
+for item in BronzeNugget {
+    <ore:nuggetBronze>.remove(item);
+    recipes.addShapeless(<ThermalFoundation:material:105>, [item]);
     item.addTooltip(format.darkRed("This item should not exist!"));
     item.addTooltip(format.darkRed("If you currently have this item, place it in your crafting grid to obtain the correct item."));
 }
