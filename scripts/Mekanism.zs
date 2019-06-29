@@ -103,8 +103,6 @@ recipes.addShaped(BasicInfuseFactory, [
     [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>]
 ]);
 
-mods.nei.NEI.addTooltip(<Mekanism:MachineBlock:5>)
-
 //recipes.addShaped(Infuser, [
     //[<ore:ingotOsmium>, <minecraft:furnace>, <ore:ingotOsmium>],
     //[BlueGem, Zinc, BlueGem],
