@@ -13,7 +13,7 @@ If you were in a crafting table (or similar) and the recipe you are viewing is f
 
 {"image":"blank-pattern.png",scale:0.25}
 
-Click the question mark to show where those items should go in your crafting interface. Shift click the items to automatically place the materials into the crafting table (if you have them in your inventory).
+Click the question mark to show where those items should go in your crafting interface. Shift click the button to automatically place the materials into the crafting table (if you have them in your inventory).
 
 To view uses for an item, while hovering your mouse over an item, right click or press the usage key bind (default "U"). NEI will show you what recipes use that item.
 
