@@ -1,4 +1,5 @@
 import mods.buildcraft.AssemblyTable;
+import mods.nei.NEI;
 
 // Mekanism.zs
 // By Rizinq for BIKE Modded S4 / jamzs for BIKE Modded S6
@@ -41,6 +42,7 @@ recipes.remove(<Mekanism:ControlCircuit:2>);
 recipes.remove(<Mekanism:ControlCircuit:3>);
 
 recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(BasicTierInstaller);
 
 ////////////////////////
 // Recipe Addition
@@ -55,6 +57,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:1>, 200000, [<M
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:2>, 400000, [<Mekanism:ReinforcedAlloy> * 2, <Mekanism:ControlCircuit:1>]);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:3>, 800000, [<Mekanism:AtomicAlloy> * 2, <Mekanism:ControlCircuit:2>]);
 
+// Factories
 recipes.addShaped(BasicSmeltFactory, [
     [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>],
     [<ExtraPlanets:ingotMercury>, <Mekanism:MachineBlock:10>, <ExtraPlanets:ingotMercury>],
@@ -100,6 +103,12 @@ recipes.addShaped(BasicInjectFactory, [
 recipes.addShaped(BasicInfuseFactory, [
     [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>],
     [<ExtraPlanets:ingotMercury>, <Mekanism:MachineBlock:8>, <ExtraPlanets:ingotMercury>],
+    [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>]
+]);
+
+recipes.addShaped(BasicTierInstaller, [
+    [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>],
+    [<ExtraPlanets:ingotMercury>, <ore:plankWood>, <ExtraPlanets:ingotMercury>],
     [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>]
 ]);
 
