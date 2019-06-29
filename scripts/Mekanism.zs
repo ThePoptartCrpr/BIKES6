@@ -25,6 +25,7 @@ mods.mekanism.chemical.Injection.removeRecipe(<Mekanism:OtherDust:3>);
 mods.mekanism.Infuser.removeRecipe(<Mekanism:ReinforcedAlloy>);
 mods.mekanism.Infuser.removeRecipe(<Mekanism:AtomicAlloy>);
 
+recipes.remove(<Mekanism:ControlCircuit:1>);
 recipes.remove(<Mekanism:ControlCircuit:2>);
 recipes.remove(<Mekanism:ControlCircuit:3>);
 
@@ -37,6 +38,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ReinforcedAlloy>, 200000, [<Me
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:AtomicAlloy>, 400000, [<Mekanism:ReinforcedAlloy> * 2, <Mekanism:OtherDust:5>]);
 
 // Control Circuits
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:1>, 200000, [<Mekanism:EnrichedAlloy> * 2, <Mekanism:ControlCircuit>, <GalacticraftMars:item.null:2> * 2]);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:2>, 400000, [<Mekanism:ReinforcedAlloy> * 2, <Mekanism:ControlCircuit:1>]);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:3>, 800000, [<Mekanism:AtomicAlloy> * 2, <Mekanism:ControlCircuit:2>]);
 
