@@ -49,4 +49,9 @@ for tool in somewhatBreakTools {
     nerfTool(64, tool);
 }
 
+recipes.removeShaped(<minecraft:chainmail_helmet>);
+recipes.removeShaped(<minecraft:chainmail_chestplate>);
+recipes.removeShaped(<minecraft:chainmail_leggings>);
+recipes.removeShaped(<minecraft:chainmail_boots>);
+
 print("Completed VanillaTools.zs");
