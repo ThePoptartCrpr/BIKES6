@@ -19,4 +19,17 @@ To make bronze, you'll need to make an alloy out of (3) copper and (1) tin. The 
 {"image":"3x3-smeltery.png", scale:0.5}
 §oProtip: If you find a village, they typically contain many of the materials you need for a Smeltery!§r
 
-To power your Smeltery, you'll need to get some lava. Make a Bucket (or Fired Clay Bucket) to transport the lava and put it in your Smeltery's Seared Tank.
+To power your Smeltery, you'll need to get some lava. Make a Bucket (or Fired Clay Bucket) to transport the lava and put it in your Smeltery's Seared Tank. Now, you can smelt ores (and other items) inside the Smeltery using the Smeltery Controller. To make bronze, smelt 3 copper and 1 tin. Once both are done, they will automatically combine to create Bronze.
+
+To make a Bronze Pickaxe Head, you'll need to make a Pickaxe Head Cast. To do so, use your Smeltery and a Casting Table to cast 1 ingot of aluminum brass OR 2 ingots of gold onto any pickaxe head made on a Part Builder. For more information, check NEI and your guide book, §oMighty Smelting§r.
+
+If you've already made a pickaxe from Tinkers' Construct, you can actually use your Tool Station to swap the existing head of your pickaxe with your bronze one, provided that your existing tool has full durability. To repair a Tinkers' tool, place it with its Repair Material in a crafting grid or Tool Station (check the Repair Material by holding SHIFT on the tool).
+
+{"image":"bronze-pick.png", scale:0.25}
+
+Your bronze pickaxe has a mining level of Redstone. The progression for mining levels, in order, are as follows:
+1. Iron
+2. Redstone
+3. Obsidian
+4. Cobalt
+5. Manyullyn
