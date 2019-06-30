@@ -113,6 +113,7 @@ Based on Forge 1.7.10 - 10.13.4.1614
 * Born in a Barn 1.1
 * ChunkPurge 2.1
 * CraftingTweaks 1.0.88
+* CraftPresence 1.5.5
 * CraftTweaker 3.0.13
 * FastCraft 1.25
 * Loot Bags 2.0.17
