@@ -2,7 +2,7 @@ So you've done the basics: you've cut down a tree, gotten some wood, and made yo
 
 {"image":"woodpick-nerf.png", scale:0.25}
 
-In this pack, wooden and stone tools are nerfed down to 64 durability. Gold, diamond, and iron tools are nerfed even further - they only have 1 durability!
+In this pack, wooden and stone tools are nerfed down to 64 durability. Gold, diamond, and iron tools are completely unusable!
 
 To avoid this, you'll need to use tools from mods instead. But for now, a wooden pickaxe is fine to use to get some cobblestone and make a stone pickaxe. If you'd like, you can also use Tinkers' Construct to make a flint pickaxe. See the guide book you spawned with, §oMaterials and You: Volume 1§r, to learn how to do this. If you don't have it, you can look up its crafting recipe in NEI (see the page on Not Enough Items in this guide for more information). Note that in this pack, flint won't randomly drop from breaking gravel. You can put 3 gravel into your crafting grid to get 1 flint. To make a flint pickaxe, you do not need to make the entire pickaxe out of flint; only the pickaxe head needs to be made out of flint. An example is shown below.
 
@@ -11,7 +11,7 @@ To avoid this, you'll need to use tools from mods instead. But for now, a wooden
 
 Whether you made a stone pickaxe or flint pickaxe, they both have a mining level of Iron. This means that they can mine ores like coal, copper, tin, and iron. Go down and mine some ores!
 
-As stated above, vanilla pickaxes made out of iron, gold, and diamond are almost useless since they only have 1 durability. Thus, at this point, you will be forced to move to other tools. Make a bronze pickaxe - the best option you have is to use Tinkers' Construct to make one. You'll need to make a Smeltery first to make a pickaxe head out of a metal. See the guides you have (or craft them if you don't), §oMaterials and You: Volume 1§r, as well as §oMighty Smelting§r to learn how to do this.
+As stated above, vanilla pickaxes made out of iron, gold, and diamond are useless since they can't mine any blocks. Thus, at this point, you will be forced to move to other tools. Make a bronze pickaxe - the best option you have is to use Tinkers' Construct to make one. You'll need to make a Smeltery first to make a pickaxe head out of a metal. See the guides you have (or craft them if you don't), §oMaterials and You: Volume 1§r, as well as §oMighty Smelting§r to learn how to do this.
 
 To make bronze, you'll need to make an alloy out of (3) copper and (1) tin. The best and most efficient early-game way to do this is to use a Smeltery, as mentioned before. Additionally, the Smeltery will also double the output you get from ores, so you can get 2 ingots worth of material from every ore! Below are some examples of valid Smeltery arrangements.
 
