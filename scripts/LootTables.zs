@@ -13,6 +13,8 @@ vanilla.loot.removeChestLoot("dungeonChest", <Botania:overgrowthSeed>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <Botania:overgrowthSeed>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <Botania:overgrowthSeed>);
 
+vanilla.loot.removeChestLoot("villageBlacksmith", <Calculator:reinforcedstoneBlock>);
+
 ////////////////////////
 // Loot Addition
 ////////////////////////
@@ -22,5 +24,7 @@ vanilla.loot.addChestLoot("strongholdCorridor", <Botania:overgrowthSeed>.weight(
 vanilla.loot.addChestLoot("dungeonChest", <Botania:overgrowthSeed>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:overgrowthSeed>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:overgrowthSeed>.weight(1), 1, 1);
+
+vanilla.loot.addChestLoot("villageBlacksmith", <Calculator:reinforcedstoneBlock>.weight(3), 1, 5);
 
 print("Completed LootTables.zs");
