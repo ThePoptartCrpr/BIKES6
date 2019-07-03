@@ -15,6 +15,15 @@ vanilla.loot.removeChestLoot("pyramidDesertyChest", <Botania:overgrowthSeed>);
 
 vanilla.loot.removeChestLoot("villageBlacksmith", <Calculator:reinforcedstoneBlock>);
 
+vanilla.loot.removeChestLoot("dungeonChest", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("strongholdCrossing", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("strongholdLibrary", <Thaumcraft:ItemResource:2>);
+vanilla.loot.removeChestLoot("villageBlacksmith", <Thaumcraft:ItemResource:2>);
+
 ////////////////////////
 // Loot Addition
 ////////////////////////
