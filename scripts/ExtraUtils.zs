@@ -31,9 +31,9 @@ recipes.remove(Pump);
 mods.buildcraft.AssemblyTable.addRecipe(EnderfluxCrystal, 2000000, [<minecraft:ender_eye>, <ExtraUtilities:decorativeBlock1:1>, <BuildCraft|Silicon:redstoneCrystal>]);
 
 mods.extraUtils.QED.addShapedRecipe(Quarry, [
-    [<ExtraUtilities:decorativeBlock1:1>, <ore:treeSapling>, <ExtraUtilities:decorativeBlock1:1>],
+    [<ExtraUtilities:decorativeBlock1:1>, <witchery:witchsapling:1>, <ExtraUtilities:decorativeBlock1:1>],
     [<ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:12>, <ExtraUtilities:decorativeBlock1:11>],
-    [<ExtraUtilities:enderThermicPump>, <minecraft:diamond_pickaxe>, <ExtraUtilities:enderThermicPump>]
+    [<ExtraUtilities:enderThermicPump>, <Mekanism:AtomicDisassembler>, <ExtraUtilities:enderThermicPump>]
 ]);
 
 mods.extraUtils.QED.addShapedRecipe(Pump, [
