@@ -5,6 +5,8 @@ Based on Forge 1.7.10 - 10.13.4.1614
 ## Tech
 * Actually Additions r21
 * AE2 Stuff 0.5.1.61
+* Another One Bites The Dust 2.9.2
+* AOBD Singularities 1.0.4
 * Applied Energistics 2 rv3 beta 6
 * Avaritia 1.13
 * Avaritiaaddons 1.4b
