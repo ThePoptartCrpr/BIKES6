@@ -20,7 +20,7 @@ var YellowCanister = <TConstruct:heartCanister:4>;
 // Recipe Addition
 ////////////////////////
 
-recipes.addShapeless(GreenCanister, [GreenHeart, YellowCanister, <magicalcrops:magicalcrops_UltimateEmeraldApple>]);
+recipes.addShapeless(GreenCanister, [GreenHeart, YellowCanister, <ExtraPlanets:diamondApple:1>]);
 recipes.addShapeless(GreenHeart, [<ExtraUtilities:block_bedrockium>, YellowHeart, <ExtraPlanets:tier11Items:4>, <Botania:storage:1>]);
 
 print("Completed TiCon.zs");

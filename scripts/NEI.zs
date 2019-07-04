@@ -61,9 +61,9 @@ var Hide as IItemStack[] = [
     <rftools:noTickolidShieldBlock>,
     <rftools:supportBlock>,
 
-    <magicalcrops:magicalcrops_MinicioOre>,
-    <magicalcrops:magicalcrops_MinicioOreNether>,
-    <magicalcrops:magicalcrops_MinicioOreEnd>,
+    <magicalcrops:MinicioOre>,
+    <magicalcrops:MinicioOreNether>,
+    <magicalcrops:MinicioOreEnd>,
 
     <Botania:manaFlame>,
 
@@ -108,10 +108,10 @@ for item in Hide {
     NEI.hide(item);
 }
 
-NEI.hide(<magicalcrops:magicalcrops_1MinicioEssence>);
-NEI.addEntry(<magicalcrops:magicalcrops_1MinicioEssence>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
-NEI.hide(<magicalcrops:magicalcrops_MinicioSeeds>);
-NEI.addEntry(<magicalcrops:magicalcrops_MinicioSeeds>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
+NEI.hide(<magicalcrops:1MinicioEssence>);
+NEI.addEntry(<magicalcrops:1MinicioEssence>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
+NEI.hide(<magicalcrops:MinicioSeeds>);
+NEI.addEntry(<magicalcrops:MinicioSeeds>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
 
 NEI.hide(BasicSmeltFactory);
 NEI.hide(BasicEnrichFactory);
