@@ -20,8 +20,11 @@ var Chipset = <BuildCraft|Silicon:redstoneChipset:7>;
 var Core = <DraconicEvolution:draconicCore>;
 var EnergyCore = <DraconicEvolution:draconiumEnergyCore>;
 
+var WyvernCore = <DraconicEvolution:wyvernCore>;
+
 var Dragonstone = <Botania:manaResource:9>;
 var CrystalRedstone = <BuildCraft|Silicon:redstoneCrystal>;
+var Koboldite = <witchery:ingredient:150>;
 
 ////////////////////////
 // Recipe Removal
@@ -43,6 +46,8 @@ mods.projecte.PhiloStone.removePhiloSmelting(DraconiumIngot * 2);
 // Cores
 recipes.remove(Core);
 recipes.remove(EnergyCore);
+recipes.remove(WyvernCore);
+
 
 ////////////////////////
 // Recipe Addition
@@ -62,6 +67,18 @@ recipes.addShaped(EnergyCore, [
     [DraconiumIngot, CrystalRedstone, DraconiumIngot],
     [CrystalRedstone, Core, CrystalRedstone],
     [DraconiumIngot, CrystalRedstone, DraconiumIngot]
+]);
+
+recipes.addShaped(WyvernCore, [
+    [DraconiumIngot, Core, Koboldite],
+    [Core, <minecraft:nether_star>, Core],
+    [Koboldite, Core, DraconiumIngot]
+]);
+
+recipes.addShaped(WyvernCore, [
+    [Koboldite, Core, DraconiumIngot],
+    [Core, <minecraft:nether_star>, Core],
+    [DraconiumIngot, Core, Koboldite]
 ]);
 
 print("Completed DraconicEvolution.zs");
