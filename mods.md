@@ -54,7 +54,9 @@ Based on Forge 1.7.10 - 10.13.4.1614
 ## Food / Agriculture
 * AgriCraft 1.5.0
 * Cooking for Blockheads 1.0.140
-* Magical Crops 4.0.0 Beta 3
+* Magical Crops 4.0.0 Beta 5
+* Magical Crops: Armoury 4.0.0 Beta 4
+* Magical Crops: Decorative 4.0.0 Beta 4a
 * Pam's HarvestCraft 1.7.10Lb
 
 
