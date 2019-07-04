@@ -1,5 +1,5 @@
 // TiCon.zs
-// By Rizinq for BIKE Modded S4
+// By Ghalid for BIKE Modded S4
 
 print("Running TiCon.zs");
 
@@ -7,12 +7,10 @@ print("Running TiCon.zs");
 // Variables
 ////////////////////////
 
-var Gravel = <minecraft:gravel>;
-var Sand = <minecraft:sand>;
-var ClayBlock = <minecraft:clay>;
-var ClayBall = <minecraft:clay_ball>;
-var Grout = <TConstruct:CraftedSoil:1>;
-var Brick = <TConstruct:materials:2>;
+var GreenHeart = <TConstruct:heartCanister:5>;
+var GreenCanister = <TConstruct:heartCanister:6>;
+var YellowHeart = <TConstruct:heartCanister:3>;
+var YellowCanister = <TConstruct:heartCanister:4>;
 
 ////////////////////////
 // Recipe Removal
@@ -22,7 +20,7 @@ var Brick = <TConstruct:materials:2>;
 // Recipe Addition
 ////////////////////////
 
-/* recipes.addShapeless(Grout * 2, [ClayBall, Sand, Gravel]);
-recipes.addShapeless(Grout * 8, [ClayBlock, Sand, Sand, Sand, Sand, Gravel, Gravel, Gravel, Gravel]); */
+recipes.addShapeless(GreenCanister, [GreenHeart, YellowCanister, <magicalcrops:magicalcrops_UltimateEmeraldApple>]);
+recipes.addShapeless(GreenHeart, [<ExtraUtilities:block_bedrockium>, YellowHeart, <ExtraPlanets:tier11Items:4>, <Botania:storage:1>]);
 
 print("Completed TiCon.zs");
