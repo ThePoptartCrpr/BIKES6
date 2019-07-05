@@ -16,6 +16,8 @@ var Casing = <Mekanism:BasicBlock:8>;
 
 var Infuser = <Mekanism:MachineBlock:8>;
 
+var DigiMiner = <Mekanism:MachineBlock:4>;
+
 ////////////////////////
 // Recipe Removal
 ////////////////////////
@@ -29,6 +31,8 @@ recipes.remove(<Mekanism:ControlCircuit:1>);
 recipes.remove(<Mekanism:ControlCircuit:2>);
 recipes.remove(<Mekanism:ControlCircuit:3>);
 
+recipes.remove(DigiMiner);
+
 ////////////////////////
 // Recipe Addition
 ////////////////////////
@@ -41,6 +45,13 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:AtomicAlloy>, 400000, [<Mekani
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:1>, 200000, [<Mekanism:EnrichedAlloy> * 2, <Mekanism:ControlCircuit>, <ExtraPlanets:ingotMercury> * 2]);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:2>, 400000, [<Mekanism:ReinforcedAlloy> * 2, <Mekanism:ControlCircuit:1>]);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:3>, 800000, [<Mekanism:AtomicAlloy> * 2, <Mekanism:ControlCircuit:2>]);
+
+// Digital Miner
+recipes.recipes.addShaped(DigiMiner, [
+    [<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:3>, <Mekanism:AtomicAlloy>],
+    [<witchery:filteredfumefunnel>, <Mekanism:Robit>, <witchery:filteredfumefunnel>],
+    [<Mekanism:TeleportationCore>, Casing, <Mekanism:TeleportationCore>]
+]);
 
 // Fix Broken Recipe
 mods.mekanism.chemical.Injection.addRecipe(<minecraft:gunpowder>, <gas:hydrogenchloride>, <ThermalFoundation:material:16>);
