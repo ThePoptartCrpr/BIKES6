@@ -1,0 +1,6 @@
+Here are some random tips and tricks that may help you:
+- Press F9 (default) to show chunk boundaries.
+- You can press T (default) while hovering over an item to find it in nearby inventories (such as chests).
+- In the Tinkers' Construct smeltery, you can use Blazing Pyrotheum to power it instead of lava, and it works much faster.
+- When you get to the point in the game with a lot of autocrafting, take the time to learn how to setup Applied Energistics 2's autocrafting.
+- You probably shouldn't bother trying to grow Magical Crops until you get far into the pack's magical themed mods.

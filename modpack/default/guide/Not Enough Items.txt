@@ -32,4 +32,5 @@ And here are some other random functions of NEI (you may learn something here ev
 - If you've gone through multiple recipes in NEI, press backspace to go back to the previous one.
 - Some recipes may have multiple items that are valid for a recipe, and if this is the case, it will cycle between them. Press and hold shift to stop this.
 - While placing items into an inventory by dragging using your mouse cursor, hold shift while clicking to move every item of that type into the inventory. (If you didn't understand: left click item to pick it up -> hold shift -> left click into another inventory)
-- While crafting, you can right click the output to pick up as much of it as possible (similar to shift clicking, but it's picked up by your mouse cursor instead of going into your inventory)
+- While crafting, you can right click the output to pick up as much of it as possible (similar to shift clicking, but it's picked up by your mouse cursor instead of going into your inventory).
+- Press F7 (default keybind) to show yellow and red X's on the ground where hostile mobs can spawn. A yellow X indicates that mobs can spawn at night, while a red X indicates that mobs can spawn there at anytime.
