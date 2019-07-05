@@ -430,6 +430,12 @@
         "witchery:kobolditepickaxe"
       ],
       "blocklist": [
+        "chisel:granite",
+        "chisel:diorite",
+        "chisel:marble",
+        "chisel:andesite",
+        "chisel:limestone",
+        "minecraft:netherrack",
         "ActuallyAdditions:blockMisc/3",
         "BigReactors:YelloriteOre/0",
         "BiomesOPlenty:gemOre/2",
