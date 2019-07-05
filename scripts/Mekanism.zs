@@ -1,5 +1,4 @@
 import mods.buildcraft.AssemblyTable;
-import mods.nei.NEI;
 
 // Mekanism.zs
 // By Rizinq for BIKE Modded S4 / jamzs for BIKE Modded S6
@@ -41,7 +40,14 @@ recipes.remove(<Mekanism:ControlCircuit:1>);
 recipes.remove(<Mekanism:ControlCircuit:2>);
 recipes.remove(<Mekanism:ControlCircuit:3>);
 
-recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(BasicSmeltFactory);
+recipes.remove(BasicEnrichFactory);
+recipes.remove(BasicCrushFactory);
+recipes.remove(BasicCompressFactory);
+recipes.remove(BasicCombineFactory);
+recipes.remove(BasicPurifyFactory);
+recipes.remove(BasicInjectFactory);
+recipes.remove(BasicInfuseFactory);
 recipes.remove(BasicTierInstaller);
 
 ////////////////////////
