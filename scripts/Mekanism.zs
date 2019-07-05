@@ -17,6 +17,7 @@ var Casing = <Mekanism:BasicBlock:8>;
 var Infuser = <Mekanism:MachineBlock:8>;
 
 var DigiMiner = <Mekanism:MachineBlock:4>;
+var Robit = <Mekanism:Robit>;
 
 ////////////////////////
 // Recipe Removal
@@ -31,6 +32,7 @@ recipes.remove(<Mekanism:ControlCircuit:1>);
 recipes.remove(<Mekanism:ControlCircuit:2>);
 recipes.remove(<Mekanism:ControlCircuit:3>);
 
+recipes.remove(Robit);
 recipes.remove(DigiMiner);
 
 ////////////////////////
@@ -47,9 +49,14 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:2>, 400000, [<M
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:3>, 800000, [<Mekanism:AtomicAlloy> * 2, <Mekanism:ControlCircuit:2>]);
 
 // Digital Miner
+recipes.addShaped(Robit, [
+    [null, <Thaumcraft:ItemResource:16>, null],
+    [<Mekanism:EnergyTablet>, <Mekanism:AtomicAlloy>, <Mekanism:EnergyTablet>],
+    [<Mekanism:Ingot>, <Mekanism:MachineBlock:13>, <Mekanism:Ingot>]
+]);
 recipes.addShaped(DigiMiner, [
     [<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:3>, <Mekanism:AtomicAlloy>],
-    [<witchery:filteredfumefunnel>, <Mekanism:Robit>, <witchery:filteredfumefunnel>],
+    [<witchery:filteredfumefunnel>, Robit, <witchery:filteredfumefunnel>],
     [<Mekanism:TeleportationCore>, Casing, <Mekanism:TeleportationCore>]
 ]);
 
