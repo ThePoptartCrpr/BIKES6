@@ -87,7 +87,20 @@ var Hide as IItemStack[] = [
     <AWWayofTime:spectralContainer>,
     <AWWayofTime:blockSchemSaver>,
 
-    <Aroma1997Core:wrenched>
+    <Aroma1997Core:wrenched>,
+
+    <magicalcropsarmour:ZivicioArmourHelmetFeed>,
+    <magicalcropsarmour:ZivicioArmourHelmetNight>,
+    <magicalcropsarmour:ZivicioArmourHelmetWater>,
+    <magicalcropsarmour:ZivicioArmourChestplateFire>,
+    <magicalcropsarmour:ZivicioArmourChestplateWither>,
+    <magicalcropsarmour:ZivicioArmourChestplatePoison>,
+    <magicalcropsarmour:ZivicioArmourLeggingsBlind>,
+    <magicalcropsarmour:ZivicioArmourLeggingsWeak>,
+    <magicalcropsarmour:ZivicioArmourLeggingsConfusion>,
+    <magicalcropsarmour:ZivicioArmourBootsStep>,
+    <magicalcropsarmour:ZivicioArmourBootsSpeed>,
+    <magicalcropsarmour:ZivicioArmourBootsJump>
 ];
 
 ////////////////////////
