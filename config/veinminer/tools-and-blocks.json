@@ -842,7 +842,8 @@
         "TConstruct:GravelOre/4",
         "TConstruct:GravelOre/5",
         "minecraft:clay",
-        "minecraft:gravel"
+        "minecraft:gravel",
+        "minecraft:sand"
       ]
     }
   }
