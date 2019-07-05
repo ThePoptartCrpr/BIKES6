@@ -19,6 +19,8 @@ var Infuser = <Mekanism:MachineBlock:8>;
 var DigiMiner = <Mekanism:MachineBlock:4>;
 var Robit = <Mekanism:Robit>;
 
+var AtomDisassemb = <Mekanism:AtomicDisassembler>;
+
 ////////////////////////
 // Recipe Removal
 ////////////////////////
@@ -34,6 +36,8 @@ recipes.remove(<Mekanism:ControlCircuit:3>);
 
 recipes.remove(Robit);
 recipes.remove(DigiMiner);
+
+recipes.remove(AtomDisassemb);
 
 ////////////////////////
 // Recipe Addition
@@ -58,6 +62,13 @@ recipes.addShaped(DigiMiner, [
     [<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:3>, <Mekanism:AtomicAlloy>],
     [<witchery:filteredfumefunnel>, Robit, <witchery:filteredfumefunnel>],
     [<Mekanism:TeleportationCore>, Casing, <Mekanism:TeleportationCore>]
+]);
+
+// Atomic Disassembler
+recipes.addShaped(AtomDisassemb, [
+    [<Mekanism:EnrichedAlloy>, <Mekanism:EnergyTablet>, <Mekanism:EnrichedAlloy>],
+    [<witchery:ingredient:150>, <Mekanism:AtomicAlloy>, <witchery:ingredient:150>],
+    [<witchery:ingredient:4>, <Mekanism:Ingot>, <witchery:ingredient:4>]
 ]);
 
 // Fix Broken Recipe
