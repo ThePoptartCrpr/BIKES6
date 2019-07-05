@@ -9,26 +9,26 @@ print("Running MagicalCrops.zs");
 // Variables
 ////////////////////////
 
-var StoneMK1 = <magicalcrops:magicalcrops_InfusionStoneWeak>;
-var StoneMK2 = <magicalcrops:magicalcrops_InfusionStoneRegular>;
-var StoneMK3 = <magicalcrops:magicalcrops_InfusionStoneStrong>;
-var StoneMK4 = <magicalcrops:magicalcrops_InfusionStoneExtreme>;
-var StoneMK5 = <magicalcrops:magicalcrops_InfusionStoneMaster>;
+var StoneMK1 = <magicalcrops:InfusionStoneWeak>;
+var StoneMK2 = <magicalcrops:InfusionStoneRegular>;
+var StoneMK3 = <magicalcrops:InfusionStoneStrong>;
+var StoneMK4 = <magicalcrops:InfusionStoneExtreme>;
+var StoneMK5 = <magicalcrops:InfusionStoneMaster>;
 
 var MinicioBlock = <magicalcrops:essence_storage>;
-var MinicioEssence = <magicalcrops:magicalcrops_1MinicioEssence>;
+var MinicioEssence = <magicalcrops:1MinicioEssence>;
 
-var Minicio = <magicalcrops:magicalcrops_1MinicioEssence>;
-var Accio = <magicalcrops:magicalcrops_2AccioEssence>;
-var Crucio = <magicalcrops:magicalcrops_3CrucioEssence>;
-var Imperio = <magicalcrops:magicalcrops_4ImperioEssence>;
-var Zivicio = <magicalcrops:magicalcrops_5ZivicioEssence>;
+var Minicio = <magicalcrops:1MinicioEssence>;
+var Accio = <magicalcrops:2AccioEssence>;
+var Crucio = <magicalcrops:3CrucioEssence>;
+var Imperio = <magicalcrops:4ImperioEssence>;
+var Zivicio = <magicalcrops:5ZivicioEssence>;
 
-var MinicioSeed = <magicalcrops:magicalcrops_MinicioSeeds>;
+var MinicioSeed = <magicalcrops:MinicioSeeds>;
 
 var SigNugget = <ThermalFoundation:material:106>;
 var EnderiumBlock = <ThermalFoundation:Storage:12>;
-var ZivicioIngot = <magicalcrops:magicalcrops_EssenceIngots:3>;
+var ZivicioIngot = <magicalcropsarmour:EssenceIngots:3>;
 
 ////////////////////////
 // Recipe Removal
@@ -58,9 +58,9 @@ mods.botania.ManaInfusion.addInfusion(StoneMK4, StoneMK3, 500000);
 mods.bloodmagic.Altar.addRecipe(StoneMK5, StoneMK4, 6, 225000);
 
 recipes.addShaped(MinicioSeed, [
-    [<magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>],
-    [<magicalcrops:magicalcrops_1MinicioEssence>, <AgriCraft:seedDiamahlia>, <magicalcrops:magicalcrops_1MinicioEssence>],
-    [<magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>, <magicalcrops:magicalcrops_1MinicioEssence>]
+    [<magicalcrops:1MinicioEssence>, <magicalcrops:1MinicioEssence>, <magicalcrops:1MinicioEssence>],
+    [<magicalcrops:1MinicioEssence>, <AgriCraft:seedDiamahlia>, <magicalcrops:1MinicioEssence>],
+    [<magicalcrops:1MinicioEssence>, <magicalcrops:1MinicioEssence>, <magicalcrops:1MinicioEssence>]
 ]);
 
 recipes.addShaped(ZivicioIngot, [
