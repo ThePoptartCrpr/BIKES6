@@ -430,12 +430,6 @@
         "witchery:kobolditepickaxe"
       ],
       "blocklist": [
-        "chisel:granite",
-        "chisel:diorite",
-        "chisel:marble",
-        "chisel:andesite",
-        "chisel:limestone",
-        "minecraft:netherrack",
         "ActuallyAdditions:blockMisc/3",
         "BigReactors:YelloriteOre/0",
         "BiomesOPlenty:gemOre/2",
@@ -615,6 +609,11 @@
         "ThermalFoundation:Ore/6",
         "appliedenergistics2:tile.OreQuartz/0",
         "appliedenergistics2:tile.OreQuartzCharged/0",
+        "chisel:andesite",
+        "chisel:diorite",
+        "chisel:granite",
+        "chisel:limestone",
+        "chisel:marble",
         "harvestcraft:salt",
         "magicalcrops:magicalcrops_MinicioOre/0",
         "minecraft:coal_ore",
@@ -628,6 +627,7 @@
         "minecraft:lit_redstone_ore",
         "minecraft:mossy_cobblestone",
         "minecraft:nether_brick_fence",
+        "minecraft:netherrack",
         "minecraft:obsidian",
         "minecraft:quartz_ore",
         "minecraft:redstone_ore"
