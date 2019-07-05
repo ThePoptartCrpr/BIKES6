@@ -10,16 +10,6 @@ print("Running NEI.zs");
 // Variables
 ////////////////////////
 
-var BasicSmeltFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 0});
-var BasicEnrichFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 1});
-var BasicCrushFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 2});
-var BasicCompressFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 3});
-var BasicCombineFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 4});
-var BasicPurifyFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 5});
-var BasicInjectFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 6});
-var BasicInfuseFactory = <Mekanism:MachineBlock:5>.withTag({recipeType: 7});
-
-
 var Hide as IItemStack[] = [
     <ExtraPlanets:tier5Items:6>,
     <ExtraPlanets:nickelBattery>.withTag({electricity: 45000.0 as float}),
@@ -108,29 +98,7 @@ for item in Hide {
     NEI.hide(item);
 }
 
-NEI.hide(<magicalcrops:magicalcrops_1MinicioEssence>);
 NEI.addEntry(<magicalcrops:magicalcrops_1MinicioEssence>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
-NEI.hide(<magicalcrops:magicalcrops_MinicioSeeds>);
 NEI.addEntry(<magicalcrops:magicalcrops_MinicioSeeds>.withTag({display: {Lore: ["§r§cMinicio ore generation and mob drops are disabled.", "§r§cUse NEI to find a different way to obtain it."]}}));
-
-NEI.hide(BasicSmeltFactory);
-NEI.hide(BasicEnrichFactory);
-NEI.hide(BasicCrushFactory);
-NEI.hide(BasicCompressFactory);
-NEI.hide(BasicCombineFactory);
-NEI.hide(BasicPurifyFactory);
-NEI.hide(BasicInjectFactory);
-NEI.hide(BasicInfuseFactory);
-
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 0, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 1, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 2, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 3, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 4, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 5, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 6, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-NEI.addEntry(<Mekanism:MachineBlock:5>.withTag({recipeType: 7, display: {Lore: ["§cSince we changed the recipes NEI is a little confused.", "§cYou'll see a bunch of unrelated factories when looking up this item's recipe.", "§cSorry."]}}));
-
-
 
 print("Completed NEI.zs");
