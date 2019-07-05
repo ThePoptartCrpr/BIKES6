@@ -18,6 +18,8 @@ var StoneMK5 = <magicalcrops:InfusionStoneMaster>;
 var MinicioBlock = <magicalcrops:essence_storage>;
 var MinicioEssence = <magicalcrops:1MinicioEssence>;
 
+var MassZivico = <magicalcrops:essence_storage:5>;
+
 var Minicio = <magicalcrops:1MinicioEssence>;
 var Accio = <magicalcrops:2AccioEssence>;
 var Crucio = <magicalcrops:3CrucioEssence>;
@@ -25,6 +27,8 @@ var Imperio = <magicalcrops:4ImperioEssence>;
 var Zivicio = <magicalcrops:5ZivicioEssence>;
 
 var MinicioSeed = <magicalcrops:MinicioSeeds>;
+
+var DraconiumSeed = <magicalcrops:DraconiumSeeds>;
 
 var SigNugget = <ThermalFoundation:material:106>;
 var EnderiumBlock = <ThermalFoundation:Storage:12>;
@@ -42,6 +46,8 @@ recipes.remove(StoneMK5);
 
 recipes.removeShaped(MinicioSeed);
 recipes.removeShaped(ZivicioIngot);
+
+recipes.removeShaped(DraconiumSeed);
 
 ////////////////////////
 // Recipe Addition
@@ -67,6 +73,12 @@ recipes.addShaped(ZivicioIngot, [
     [SigNugget, EnderiumBlock, SigNugget],
     [EnderiumBlock, Zivicio, EnderiumBlock],
     [SigNugget, EnderiumBlock, SigNugget]
+]);
+
+recipes.addShaped(DraconiumSeed, [
+    [MassZivico, Zivicio, MassZivico],
+    [Zivicio, MinicioSeed, Zivicio],
+    [MassZivico, Zivicio, MassZivico]
 ]);
 
 print("Completed MagicalCrops.zs");
