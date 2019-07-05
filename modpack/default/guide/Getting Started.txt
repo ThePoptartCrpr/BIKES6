@@ -33,3 +33,15 @@ Your bronze pickaxe has a mining level of Redstone. The progression for mining l
 3. Obsidian
 4. Cobalt
 5. Manyullyn
+
+One way you can upgrade your pickaxe to Obsidian level is to add a Diamond modifier on it using your Tool Station. You will need a free modifier slot on your pickaxe. If you have free modifiers, you'll see "Modifiers remaining:", then a number, when you hold SHIFT on your tool. To get more modifiers, level up your tool by using it to mine. Eventually, you'll see a message like below:
+
+{"image":"tinker-level.png", scale:0.25}
+
+When you level up your tool, you can get another modifier slot and a random modifier for your tool. To check how close you are to leveling up, hold SHIFT on your tool and check its Skill XP. In this case, I got lucky and randomly got a free Diamond modifier. However, if you need to apply it yourself, place the tool in your Tool Station, then place a Diamond in one of the other slots.
+
+Once you've gotten a Obsidian level pickaxe, your goal is to get an Alumite pickaxe to get a Cobalt level pickaxe. Check NEI to learn how to make Alumite, which is another alloy.
+
+Then, venture into your Nether. Your goal is to find Cobalt and Ardite ore. Manyullyn is an alloy made of those two metals. It is recommended that you make a Cobalt Pickaxe next. Despite still having a mining level of Cobalt, Cobalt is the highest mining level you will practically need. A Cobalt Pickaxe also has a higher mining speed than a Manyullyn Pickaxe.
+
+At this point, gather more resources and start exploring the mods avaliable to you! For help with specific mods, ask around or look online.
