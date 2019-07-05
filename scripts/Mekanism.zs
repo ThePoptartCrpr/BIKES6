@@ -47,7 +47,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:2>, 400000, [<M
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:3>, 800000, [<Mekanism:AtomicAlloy> * 2, <Mekanism:ControlCircuit:2>]);
 
 // Digital Miner
-recipes.recipes.addShaped(DigiMiner, [
+recipes.addShaped(DigiMiner, [
     [<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:3>, <Mekanism:AtomicAlloy>],
     [<witchery:filteredfumefunnel>, <Mekanism:Robit>, <witchery:filteredfumefunnel>],
     [<Mekanism:TeleportationCore>, Casing, <Mekanism:TeleportationCore>]
