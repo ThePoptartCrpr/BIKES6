@@ -76,9 +76,9 @@ recipes.addShaped(ZivicioIngot, [
 ]);
 
 recipes.addShaped(DraconiumSeed, [
-    [MassZivico, Zivicio, MassZivico],
-    [Zivicio, MinicioSeed, Zivicio],
-    [MassZivico, Zivicio, MassZivico]
+    [<DraconicEvolution:draconiumIngot>, MassZivico, <DraconicEvolution:draconiumIngot>],
+    [MassZivico, MinicioSeed, MassZivico],
+    [<DraconicEvolution:draconiumIngot>, MassZivico, <DraconicEvolution:draconiumIngot>]
 ]);
 
 print("Completed MagicalCrops.zs");
