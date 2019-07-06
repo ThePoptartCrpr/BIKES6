@@ -3,3 +3,11 @@ Welcome to BIKE Modded SMP Season 6! If you're new to modded, welcome! This guid
 The pages in this guide are not intended to be read in any particular order. Feel free to read whichever pages you'd like.
 
 This guide is not a quest book or guide for the exact steps to progress through the pack, but is intended to help players get started. Furthermore, it won't cover most of the mods in the pack in detail. We encourage you to seek out other resources as well if you need help (YouTube, wikis, other people, etc).
+
+Some useful resources are linked below:
+{"text":"- Official FTB Wiki (https://ftb.gamepedia.com/FTB_Wiki)", "click":{"type":"url", "data":"https://ftb.gamepedia.com/FTB_Wiki"}}
+{"text":"- Unofficial FTB Wiki (https://ftbwiki.org/Feed_The_Beast_Wiki)", "click":{"type":"url", "data":"https://ftbwiki.org/Feed_The_Beast_Wiki"}}
+{"text":"- YouTube (https://www.youtube.com)", "click":{"type":"url", "data":"https://www.youtube.com"}}
+{"text":"- Applied Energistics 2 Wiki (https://ae2.ae-mod.info)", "click":{"type":"url", "data":"https://ae2.ae-mod.info"}}
+{"text":"- Mekanism Wiki (https://wiki.aidancbrady.com/wiki/Main_Page)", "click":{"type":"url", "data":"https://wiki.aidancbrady.com/wiki/Main_Page"}}
+{"text":"- Google (https://www.google.com)", "click":{"type":"url", "data":"https://www.google.com"}}
