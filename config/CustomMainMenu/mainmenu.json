@@ -4,11 +4,11 @@
         "title":
         {
             "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -375,
-            "posY" : 90,
+            "posX" : 45,
+            "posY" : -170,
             "width" : 512,
             "height" : 512,
-            "alignment" : "top_center"
+            "alignment" : "left_center"
         },
 
         "bike":
@@ -134,10 +134,10 @@
     {
         "splash-text":
         {
-            "posX" : -148,
-            "posY" : 130,
+            "posX" : 272,
+            "posY" : -130,
             "color" : -256,
-            "alignment" : "top_center",
+            "alignment" : "left_center",
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         "background":
