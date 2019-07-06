@@ -119,11 +119,13 @@ Based on Forge 1.7.10 - 10.13.4.1614
 * CraftingTweaks 1.0.88
 * CraftPresence 1.5.5
 * CraftTweaker 3.0.13
+* Custom Main Menu 1.9.2
 * FastCraft 1.25
 * Loot Bags 2.0.17
 * ModTweaker2 0.9.6
 * NetherPortalFix 1.1.0
 * OptiFine HD U E7
+* Resource Loader 1.3
 * Unidict 2.9.2
 
 
