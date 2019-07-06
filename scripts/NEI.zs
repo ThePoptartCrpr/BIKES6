@@ -36,6 +36,7 @@ var Hide as IItemStack[] = [
     <minecraft:flowing_water>,
     <minecraft:command_block_minecart>,
     <minecraft:command_block>,
+    <minecraft:lit_furnace>,
 
     <witchery:coffinblock>,
     <witchery:spiritflowing>,
