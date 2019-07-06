@@ -1,0 +1,5 @@
+A mod in the pack called FTB Utilities allows you to claim chunks, which prevents players who are not added as a friend from modifying your land. To claim chunks, open your inventory, and click the "Claimed Chunks" button on the left side of your inventory.
+
+A map will appear. To claim a chunk, left click it on the map. To unclaim it, right click on the map.
+
+FTB Utilities also allows you to chunkload your claimed chunks, so that anything inside those chunks keeps working while you're not nearby or offline. To load a chunk, CONTROL + left click one of your claimed chunks. To unload it, CONTROL + right click the chunk. (If you are on a Mac, you may need to hold COMMAND instead of CONTROL.)
