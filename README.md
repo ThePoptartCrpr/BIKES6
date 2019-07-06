@@ -15,4 +15,5 @@ While making this modpack, we wanted to follow the following principles:
 
 ## Installation Guide
 
-See Discord for an installation guide.
+* Windows: https://ghalid.github.io/BIKES6/windows-install
+* macOS: https://ghalid.github.io/BIKES6/mac-install
