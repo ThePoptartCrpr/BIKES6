@@ -1,0 +1,155 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -375,
+            "posY" : 90,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        },
+
+        "bike":
+        {
+            "image" : "mainmenu:images/bikes6.jpg",
+            "posX" : -69,
+            "posY" : 5,
+            "width" : 64,
+            "height" : 64,
+            "alignment" : "top_right"
+        },
+
+        "button_back":
+        {
+            "image" : "mainmenu:images/background.png",
+            "posX" : 22,
+            "posY" : -35,
+            "width" : 322,
+            "height" : 92,
+            "alignment" : "left_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 25,
+            "posY" : -30,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            },
+            "alignment" : "left_center"
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Play SMP",
+            "posX" : 25,
+            "posY" : 0,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            },
+            "alignment" : "left_center"
+        },
+        
+        "mods":
+        {
+            "text" : "Mod List",
+            "posX" : 25,
+            "posY" : 30,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            },
+            "alignment" : "left_center"
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 190,
+            "posY" : -15,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            },
+            "alignment" : "left_center"
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 190,
+            "posY" : 15,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            },
+            "alignment" : "left_center"
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+
+        "info":
+        {
+            "text" : "§aMinecraft #mcversion#§r\n§cBIKE Modded SMP Season 6 Modpack§r\n§d#modsloaded# mods loaded, #modsactive# mods active§r",
+            "posX" : 2,
+            "posY" : -28,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : -148,
+            "posY" : 130,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:images/base_1.png","mainmenu:images/base_2.png","mainmenu:images/base_3.png","mainmenu:images/forest.png","mainmenu:images/botania.png"],
+                "displayDuration" : 200,
+                "fadeDuration" : 40,
+                "shuffle" : true
+            }
+        }
+    }
+}
