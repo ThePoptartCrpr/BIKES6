@@ -59,9 +59,8 @@ mods.botania.ManaInfusion.addInfusion(StoneMK1, <Thaumcraft:ItemResource:16>, 20
 mods.botania.ManaInfusion.addInfusion(StoneMK2, StoneMK1, 300000);
 mods.botania.ManaInfusion.addInfusion(StoneMK3, StoneMK2, 400000);
 mods.botania.ManaInfusion.addInfusion(StoneMK4, StoneMK3, 500000);
-/* mods.botania.ManaInfusion.addInfusion(StoneMK5, StoneMK4, 1000000); */
 
-mods.bloodmagic.Altar.addRecipe(StoneMK5, StoneMK4, 6, 225000);
+mods.bloodmagic.Altar.addRecipe(StoneMK5, StoneMK4, 5, 200000);
 
 recipes.addShaped(MinicioSeed, [
     [<magicalcrops:1MinicioEssence>, <magicalcrops:1MinicioEssence>, <magicalcrops:1MinicioEssence>],
