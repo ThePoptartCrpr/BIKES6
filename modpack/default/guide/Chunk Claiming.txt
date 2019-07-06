@@ -3,3 +3,5 @@ A mod in the pack called FTB Utilities allows you to claim chunks, which prevent
 A map will appear. To claim a chunk, left click it on the map. To unclaim it, right click on the map.
 
 FTB Utilities also allows you to chunkload your claimed chunks, so that anything inside those chunks keeps working while you're not nearby or offline. To load a chunk, CONTROL + left click one of your claimed chunks. To unload it, CONTROL + right click the chunk. (If you are on a Mac, you may need to hold COMMAND instead of CONTROL.)
+
+To add a player as a friend, go to your inventory and click the FriendsGUI button. Find your teammates' names and add them.
