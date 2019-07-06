@@ -8,6 +8,9 @@ _All instructions are intended for players who use the vanilla Minecraft launche
    * Note: On a default configuration, when opening the Minecraft Forge installer jar file, you'll see a warning from Gatekeeper, shown below.
   ![Gatekeeper warning on macOS](images/gatekeeper.png)
   To bypass this warning, right click (or hold CONTROL and click) on the jar file. Then, click Open on the list of options that appear, then click Open on the warning that appears.
+   * If you see a message like the one shown below:
+   ![Java warning on macOS](images/macos-nojava.png)
+   then you need to install Java. Go to [the official site](https://www.java.com) and follow the instructions to install it.
    * If, for whatever reason, the linked installer before is not working, make sure you've ran vanilla 1.7.10 at least once before. If it is still not running, please contact a staff member with any error messages you see.
 4. Open the Minecraft launcher. If it was already open, close it and reopen it.
 5. On the top of the launcher, click the Installations tab. If you don't see the Installations tab, make sure that _Minecraft: Java Edition_ is selected on the sidebar to the left.
