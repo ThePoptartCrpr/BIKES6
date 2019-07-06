@@ -119,12 +119,12 @@
             "color" : -1,
             "alignment" : "bottom_right"
         },
-        
-        "fml":
+
+        "info":
         {
-            "text" : "",
+            "text" : "§aMinecraft #mcversion#§r\n§cBIKE Modded SMP Season 6 Modpack§r\n§d#modsloaded# mods loaded, #modsactive# mods active§r",
             "posX" : 2,
-            "posY" : -55,
+            "posY" : -28,
             "color" : -1,
             "alignment" : "bottom_left"
         }
