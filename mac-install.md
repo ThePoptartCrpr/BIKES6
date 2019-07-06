@@ -40,7 +40,7 @@ Press the green _Create_ button to create the installation.
 
 12. Extract the modpack zip file you downloaded in step 1. (If you don't know what I mean, just double click it to open it)
 13. A folder should've appeared with the modpack files. Go inside this folder that just appeared, then move all the files and folders here into the _Game Directory_ folder you opened earlier.
-    * **IMPORTANT**: Make sure you are moving the folders/files named `mods`, `config`, `scripts`, etc. and NOT the folder that contains all of them. When you are done, your game directory (such as `BIKES6`) should contain these files: 
+    * **IMPORTANT**: Make sure you are moving the folders/files named `mods`, `config`, `scripts`, etc. and NOT the folder that contains all of them. When you are done, your game directory (such as `BIKES6`) should contain these files (`mods.md` and `README.md` do not have to be there, but they're okay to leave if you'd like): 
 
         ![Final game directory (macOS)](images/macos-gamedir.png)
 14. In the Minecraft launcher, click the _Play_ tab on the top. Near the bottom, select the installation you created, then hit _Play_.
