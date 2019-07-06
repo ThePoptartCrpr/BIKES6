@@ -1,7 +1,7 @@
 {
   "backups": {
-    "backup_timer": 2.0,
-    "backups_to_keep": 12,
+    "backup_timer": 0.5,
+    "backups_to_keep": 48,
     "compression_level": 1,
     "display_file_size": true,
     "enabled": true,
@@ -47,11 +47,13 @@
     ],
     "cross_dim_homes": true,
     "custom_config": {},
-    "dimension_blacklist": [],
-    "forced_chunk_security": "-",
+    "dimension_blacklist": [
+      1
+    ],
+    "forced_chunk_security": "friends",
     "forced_explosions": "-",
-    "max_claims": 1000,
-    "max_homes": 100,
+    "max_claims": 200,
+    "max_homes": 1,
     "max_loaded_chunks": 50,
     "show_rank": true
   },
@@ -66,9 +68,9 @@
     "dimension_blacklist": [
       1
     ],
-    "forced_chunk_security": "-",
+    "forced_chunk_security": "friends",
     "forced_explosions": "-",
-    "max_claims": 100,
+    "max_claims": 200,
     "max_homes": 1,
     "max_loaded_chunks": 50,
     "show_rank": true
