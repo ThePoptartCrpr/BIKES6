@@ -30,15 +30,15 @@ This will allocate 1536 MB to the game (which is equal to 1.5 GB).
 ![macOS Minecraft installation](images/macos-installation.png)
 Press the green _Create_ button to create the installation.
 1.  Go to the folder you chose when creating your installation (in the Game Directory). If you went with our recommendation and chose a folder inside your regular `minecraft` folder, triple click this text:
-```
-~/Library/Application Support/minecraft/
-```
-Right click it (or control + click) and click Services > Open. You can also manually navigate to it if you know how. If you followed our recommendation exactly, create a folder in here called `BIKES6` (or open it if it is already there).
+    ```
+    ~/Library/Application Support/minecraft/
+    ```
+    Right click it (or control + click) and click Services > Open. You can also manually navigate to it if you know how. If you followed our recommendation exactly, create a folder in here called `BIKES6` (or open it if it is already there).
 
 12. Extract the modpack zip file you downloaded in step 1. (If you don't know what I mean, just double click it to open it)
 13. A folder should've appeared with the modpack files. Go inside this folder that just appeared, then move all the files and folders here into the _Game Directory_ folder you opened earlier.
     * **IMPORTANT**: Make sure you are moving the folders/files named `mods`, `config`, `scripts`, etc. and NOT the folder that contains all of them. When you are done, your game directory (such as `BIKES6`) should contain these files: 
 
-    ![Final game directory (macOS)](images/macos-gamedir.png)
+        ![Final game directory (macOS)](images/macos-gamedir.png)
 14. In the Minecraft launcher, click the _Play_ tab on the top. Near the bottom, select the installation you created, then hit _Play_.
 ![Now, just hit Play!](images/macos-play.png)
