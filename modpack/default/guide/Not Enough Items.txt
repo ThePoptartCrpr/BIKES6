@@ -19,6 +19,8 @@ To view uses for an item, while hovering your mouse over an item, right click or
 
 You can do this pretty much anywhere else you can hover on items too, not just the NEI item list!
 
+Note: Several recipes have been changed by the Season 6 admin team. If you see a different recipe between an online resource and NEI in-game, always use the recipe shown in-game.
+
 To search for specific items, type in the search bar at the bottom of the inventory.
 
 Aside from simply searching items, there are some more advanced search functions as well! These include, but are not limited to:
