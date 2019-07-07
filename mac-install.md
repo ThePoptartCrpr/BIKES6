@@ -6,7 +6,7 @@ _All instructions are intended for players who use the vanilla Minecraft launche
 2. Run a *vanilla* instance of 1.7.10 with the launcher. Once open, you may close it.
 3. Download the Minecraft Forge installer [here](https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-installer.jar) and run it. This will install Minecraft Forge.
    * Note: On a default configuration, when opening the Minecraft Forge installer jar file, you'll see a warning from Gatekeeper, shown below.
-  ![Gatekeeper warning on macOS](images/gatekeeper.png)
+  ![Gatekeeper warning on macOS](images/macos-gatekeeper.png)
   To bypass this warning, right click (or hold CONTROL and click) on the jar file. Then, click Open on the list of options that appear, then click Open on the warning that appears.
    * If you see a message like the one shown below:
    ![Java warning on macOS](images/macos-nojava.png)
