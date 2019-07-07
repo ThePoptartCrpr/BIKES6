@@ -25,7 +25,7 @@ This will allocate 1536 MB to the game (which is equal to 1.5 GB).
         This will allocate 1.5 GB of RAM to the game, along with the other options. If you choose to use these, **remove all existing arguments** and paste in those arguments. YMMV, and this may improve or decrease performance depending on your system. If they do not work well for you, come back to this dialog and click the _Reset_ button in JVM Arguments.
 1.  Press the green _Create_ button to create the installation.
 2.  Go to the folder you chose when creating your installation (in the Game Directory).
-3.  Extract the modpack zip file you downloaded in step 1. (If you don't know what I mean, just double click it to open it)
+3.  Extract the modpack zip file you downloaded in step 1.
 4.  A folder should've appeared with the modpack files. Go inside this folder that just appeared, then move all the files and folders here into the _Game Directory_ folder you opened earlier.
     * **IMPORTANT**: Make sure you are moving the folders/files named `mods`, `config`, `scripts`, etc. and NOT the folder that contains all of them. When you are done, your game directory (such as `BIKES6`) should contain these files: 
       * `mods`
