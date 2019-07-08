@@ -7,8 +7,6 @@ _This guide is made to help players getting low FPS while playing the modpack. A
 * Tinker with the basic video settings (render distance, graphics, smooth lighting, etc.).
   * WARNING: If you have OptiFine, setting _Chunk Loading_ to Smooth or Multi-Core is notorious for causing significant graphical glitches and crashes. We recommend setting it to Default.
 * Try disabling VSync.
-* In video settings, set Mipmap Levels to 0. (If you don't want to do this in-game, open your `options.txt` file in your modpack's game directory and set `mipmapLevels` to `0`.)
-
 * Try to put things like automated crops and machines that are resource intensive away from your main base and chunk loaded, so that your computer doesn't have to render them all the time.
 
 ## Advanced Tips
