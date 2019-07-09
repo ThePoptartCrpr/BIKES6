@@ -37,6 +37,8 @@ recipes.remove(Robit);
 
 recipes.remove(AtomDisassemb);
 
+recipes.remove(<Mekanism:WalkieTalkie>.withTag({channel: 1, on: 0 as byte}));
+
 ////////////////////////
 // Recipe Addition
 ////////////////////////

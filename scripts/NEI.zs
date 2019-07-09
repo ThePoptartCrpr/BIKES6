@@ -101,7 +101,9 @@ var Hide as IItemStack[] = [
     <magicalcropsarmour:ZivicioArmourLeggingsConfusion>,
     <magicalcropsarmour:ZivicioArmourBootsStep>,
     <magicalcropsarmour:ZivicioArmourBootsSpeed>,
-    <magicalcropsarmour:ZivicioArmourBootsJump>
+    <magicalcropsarmour:ZivicioArmourBootsJump>,
+
+    <Mekanism:WalkieTalkie>
 ];
 
 ////////////////////////
