@@ -122,7 +122,7 @@
 
         "info":
         {
-            "text" : "§aMinecraft #mcversion#§r\n§cBIKE Modded SMP Season 6 Modpack§r\n§d#modsloaded# mods loaded, #modsactive# mods active§r",
+            "text" : "\u00A7aMinecraft #mcversion#\u00A7r\n\u00A7cBIKE Modded SMP Season 6 Modpack\u00A7r\n\u00A7d#modsloaded# mods loaded, #modsactive# mods active\u00A7r",
             "posX" : 2,
             "posY" : -28,
             "color" : -1,
