@@ -18,6 +18,7 @@ _All instructions are intended for players who use the vanilla Minecraft launche
    * Name: Anything you'd like (such as BIKE S6)
    * Version: _release 1.7.10-Forge10.13.4.1614-1.7.10_
    * Game directory: _C:\Users\\[your username]\AppData\Roaming\\.minecraft\BIKES6_
+     * Replace `[your username]` with your Windows account username on your computer, NOT your Minecraft IGN.
      * Note: If you want to install the modpack elsewhere, this is where you change it. This directory (folder) is essentially where your `.minecraft` folder is for the modpack installation, and is kept separate from your other installations. This directory means that your `.minecraft` folder for the pack is inside the `BIKES6` folder inside of the normal `.minecraft` folder. You can also achieve the same thing by clicking _Browse_, then creating a new folder inside the folder it shows you (which should be the normal `.minecraft` folder).
 8. In the bottom left of the prompt, click the _More Options_ dropdown.
 9. For JVM Arguments, there should be some arguments already there. At the beginning, you should see `-Xmx[a number here]G`. This is how much RAM is allocated to the game. We recommend allocating anywhere from about 1.5 GB to 3 GB. Avoid going too much higher or lower, as this may cause problems. For example, if you want to allocate 1.5 GB of RAM to Minecraft, **replace** the default `-Xmx` value to:

@@ -19,13 +19,14 @@ _All instructions are intended for players who use the vanilla Minecraft launche
    * Name: Anything you'd like (such as BIKE S6)
    * Version: _release 1.7.10-Forge10.13.4.1614-1.7.10_
    * Game directory: _/Users/[your username]/Library/Application Support/minecraft/BIKES6_
+     * Replace `[your username]` with your computer account username, NOT your Minecraft IGN.
      * Note: If you want to install the modpack elsewhere, this is where you change it. This directory (folder) is essentially where your `minecraft` folder is for the modpack installation, and is kept separate from your other installations. This directory means that your `minecraft` folder for the pack is inside the `BIKES6` folder inside of the normal `minecraft` folder. You can also achieve the same thing by clicking _Browse_, then creating a new folder inside the folder it shows you (which should be the normal `minecraft` folder).
 8. In the bottom left of the prompt, click the _More Options_ dropdown.
 9. For JVM Arguments, there should be some arguments already there. At the beginning, you should see `-Xmx[a number here]G`. This is how much RAM is allocated to the game. We recommend allocating anywhere from about 1.5 GB to 3 GB. Avoid going too much higher or lower, as this may cause problems. For example, if you want to allocate 1.5 GB of RAM to Minecraft, **replace** the default `-Xmx` value to:
     * `-Xmx1536M`
     This will allocate 1536 MB to the game (which is equal to 1.5 GB).
     * Note **(not required, skip if it is too complex)**: You may experience better performance with a different set of arguments entirely. For more information, check the [performance guide](performance).
-1.  Your install should look similar to the following:
+10. Your install should look similar to the following:
 ![macOS Minecraft installation](images/macos-installation.png)
 Press the green _Create_ button to create the installation.
 1.  Go to the folder you chose when creating your installation (in the Game Directory). If you went with our recommendation and chose a folder inside your regular `minecraft` folder, triple click this text:
