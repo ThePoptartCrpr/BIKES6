@@ -21,7 +21,7 @@ var PrintedSilicon = <appliedenergistics2:item.ItemMultiMaterial:20>;
 
 var LogicProcessor = <appliedenergistics2:item.ItemMultiMaterial:22>;
 var EngineeringProcessor = <appliedenergistics2:item.ItemMultiMaterial:24>;
-var CalculationProcessor = <appliedenergistics2:item.ItemMultiMaterial:23> * 64;
+var CalculationProcessor = <appliedenergistics2:item.ItemMultiMaterial:23>;
 
 var MEDrive = <appliedenergistics2:tile.BlockDrive>;
 var MEController = <appliedenergistics2:tile.BlockController>;
