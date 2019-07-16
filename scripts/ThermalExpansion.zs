@@ -422,4 +422,8 @@ recipes.addShaped(Insolator[3], [
     [CopperGear, MoonRock, CopperGear]
 ]);
 
+// Aluminum Dust Fix
+
+mods.thermalexpansion.Furnace.addRecipe(1000, <TConstruct:materials:40>, <TConstruct:materials:11>);
+
 print("Completed ThermalExpansion.zs");
