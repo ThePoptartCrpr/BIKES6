@@ -16,6 +16,9 @@ var YellowCanister = <TConstruct:heartCanister:4>;
 // Recipe Removal
 ////////////////////////
 
+mods.tconstruct.Casting.removeTableRecipe(<DraconicEvolution:draconiumIngot>);
+mods.tconstruct.Casting.removeBasinRecipe(<DraconicEvolution:draconium>);
+
 ////////////////////////
 // Recipe Addition
 ////////////////////////
